@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://crytrex.com/public_api/pairs
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - crytrex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 14 Apr 2020 07:48:27 GMT
+      Server:
+      - Apache
+      Upgrade:
+      - h2,h2c
+      Connection:
+      - Upgrade, close
+      Vary:
+      - Accept-Encoding,User-Agent
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: " {\n\"success\":true,\n\"message\":\"\",\n\"result\":[\n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"BTC\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"ETH\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"DASH\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"BCH\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"LTC\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"ZEC\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"TRX\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"USDC\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"VELAS\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"BTT\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"CRYT\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"DOGE\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"XRP\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"XLM\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"XTZ\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"ETC\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"EOS\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"DAI\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"ZRX\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"REP\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"BAT\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"KNC\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"LINK\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"ATOM\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"DGB\",\n   \"IsActive\":true\n },\n \n {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"BNB\",\n   \"IsActive\":true\n },\n    {\n   \"Market\":\"USDT\",\n
+        \  \"Currency\":\"VLX\",\n   \"IsActive\":true\n }\n  ]}"
+    http_version: 
+  recorded_at: Tue, 14 Apr 2020 07:48:27 GMT
+recorded_with: VCR 4.0.0

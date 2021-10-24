@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.aex.zone/ticker.php?c=btc&mk_type=usdt
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.aex.zone
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Jul 2019 07:59:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Server:
+      - nginx
+      X-Powered-By:
+      - PHP/5.4.16
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache,must-revalidate
+    body:
+      encoding: UTF-8
+      string: '{"ticker":{"high":10594,"low":9524,"last":10081,"vol":946.668969,"buy":10035,"sell":10084,"range":0.0384}}'
+    http_version: 
+  recorded_at: Thu, 25 Jul 2019 07:59:27 GMT
+recorded_with: VCR 4.0.0

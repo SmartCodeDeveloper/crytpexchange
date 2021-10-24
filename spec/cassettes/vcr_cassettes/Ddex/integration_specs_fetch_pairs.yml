@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.ddex.io/v4/markets/tickers
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.ddex.io
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/plain; charset=UTF-8
+      Content-Length:
+      - '1085'
+      Vary:
+      - Accept-Encoding
+      - Origin
+      X-Ratelimit-Limit-Minute:
+      - '600'
+      X-Ratelimit-Remaining-Minute:
+      - '599'
+      Access-Control-Allow-Origin:
+      - "*"
+      Date:
+      - Sun, 05 Apr 2020 08:59:21 GMT
+      X-Kong-Upstream-Latency:
+      - '5'
+      X-Kong-Proxy-Latency:
+      - '1'
+      Via:
+      - kong/0.14.1, 1.1 google
+      Alt-Svc:
+      - clear
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"status":0,"desc":"success","template":"","params":null,"data":{"tickers":[{"marketId":"ETH-USDT","price":"142.55","volume":"1707.6303","bid":"142.22","ask":"142.85","low":"142.85","high":"146.5","updateAt":1586073153236},{"marketId":"ETH-USDC","price":"143.56","volume":"414.9727","bid":"142.69","ask":"143.56","low":"143.56","high":"144.56","updateAt":1586061061406},{"marketId":"ETH-DAI","price":"141.52","volume":"3.0926","bid":"125","ask":"141.52","low":"141.52","high":"141.52","updateAt":1586075492089},{"marketId":"WBTC-USDT","price":"6786.96","volume":"12.5016","bid":"6777.36","ask":"6786.96","low":"6786.96","high":"6798.18","updateAt":1586075537788},{"marketId":"HBTC-USDT","price":"6849.45","volume":"0.001","bid":"6778.35","ask":"6849.45","low":"6849.45","high":"6849.45","updateAt":1585884376000},{"marketId":"ETH-SAI","price":"145.48","volume":"3.6783","bid":"145.48","ask":"149.41","low":"149.41","high":"149.35","updateAt":1575188948775},{"marketId":"iETH-ETH","price":"0.95","volume":"0.0494","bid":"1","ask":"0","low":"0","high":"0.95","updateAt":1582710980972}]}}'
+    http_version: 
+  recorded_at: Sun, 05 Apr 2020 08:59:17 GMT
+recorded_with: VCR 4.0.0

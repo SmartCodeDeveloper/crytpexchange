@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.coinexchange.io/api/v1/getmarketsummary?market_id=18
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.coinexchange.io
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 09 Aug 2019 07:55:25 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '361'
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - incap_ses_958_1322663=Gql4fJ6WFzP/OyThrYBLDewmTV0AAAAAXKOA8b1vGhLK5kC7NkbKlg==;
+        path=/; Domain=.coinexchange.io
+      - visid_incap_1322663=KrGAgK/CTjCyj/x3GHndwewmTV0AAAAAQUIPAAAAAAAYjIRbw0wWt95zzeYHwJnH;
+        expires=Fri, 07 Aug 2020 13:05:31 GMT; path=/; Domain=.coinexchange.io
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains; preload
+      X-Iinfo:
+      - 3-14752259-14752272 NNNN CT(0 0 0) RT(1565337324616 143) q(0 0 0 -1) r(2 2)
+        U2
+      X-Cdn:
+      - Incapsula
+    body:
+      encoding: ASCII-8BIT
+      string: '{"success":"1","request":"\/api\/v1\/getmarket","message":"","result":{"MarketID":"18","LastPrice":"0.00746529","Change":"-1.69","HighPrice":"0.00781000","LowPrice":"0.00740004","Volume":"0.19003807","BTCVolume":"0.19003807","TradeCount":"46","BidPrice":"0.00745000","AskPrice":"0.00749585","BuyOrderCount":"179","SellOrderCount":"668","MarketAssetCode":"LTC"}}'
+    http_version: 
+  recorded_at: Fri, 09 Aug 2019 07:55:25 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.bitfront.me/v1/market/public/currentTickValue?coinPair=BTC.USD
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - openapi.bitfront.me
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '237'
+      Date:
+      - Fri, 28 Feb 2020 03:17:37 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"timezone":"UTC","responseTime":1582859857157,"statusCode":1000,"statusMessage":"SUCCESS","responseData":{"bid":8870.07,"ask":8883.93,"last":8879.88,"volume":70407570.2622718168,"open":8655,"close":8879.88,"high":8974.75,"low":8652.76}}'
+    http_version: 
+  recorded_at: Fri, 28 Feb 2020 03:17:37 GMT
+recorded_with: VCR 4.0.0

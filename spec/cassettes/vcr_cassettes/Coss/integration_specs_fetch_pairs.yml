@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://market.coss.io/api/ticker
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - market.coss.io
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 May 2020 10:38:02 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1441'
+      Connection:
+      - close
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"5a1-OJRmv15PKqS3mGQWFRhCL1rHsO8"
+    body:
+      encoding: UTF-8
+      string: '{"COS_USD":{"base_id":"4036","quote_id":"2781","last_price":"0.01449","base_volume":"1201","quote_volume":"17.57063","isFrozen":"0"},"LTC_USD":{"base_id":"2","quote_id":"2781","last_price":"44.859621","base_volume":"2.7000000","quote_volume":"120.4470000","isFrozen":"0"},"BTC_USD":{"base_id":"1","quote_id":"2781","last_price":"9641.5","base_volume":"0.02","quote_volume":"195.96","isFrozen":"0"},"XRP_USD":{"base_id":"52","quote_id":"2781","last_price":"0.20347","base_volume":"0","quote_volume":"0","isFrozen":"0"},"ETH_USD":{"base_id":"1027","quote_id":"2781","last_price":"212.15","base_volume":"3.6000000","quote_volume":"762.1200000","isFrozen":"0"},"NEO_USD":{"base_id":"1376","quote_id":"2781","last_price":"10.199865","base_volume":"21.0000000","quote_volume":"212.9400000","isFrozen":"0"},"ZEC_USD":{"base_id":"1437","quote_id":"2781","last_price":"47.780052","base_volume":"0","quote_volume":"0","isFrozen":"0"},"TRX_USD":{"base_id":"1958","quote_id":"2781","last_price":"0.01512914","base_volume":"2000.0000000","quote_volume":"287.8000000","isFrozen":"0"},"EOS_USD":{"base_id":"1765","quote_id":"2781","last_price":"2.6476519","base_volume":"0","quote_volume":"0","isFrozen":"0"},"BCH_USD":{"base_id":"1831","quote_id":"2781","last_price":"246.41","base_volume":"0.9","quote_volume":"225","isFrozen":"0"},"XLM_USD":{"base_id":"512","quote_id":"2781","last_price":"0.069667","base_volume":"0","quote_volume":"0","isFrozen":"0"}}'
+    http_version: 
+  recorded_at: Mon, 18 May 2020 10:38:02 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://openapi.bitfront.me/v1/market/public/coins/pairPolicy
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - openapi.bitfront.me
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Content-Type:
+      - application/json;charset=UTF-8
+      Content-Length:
+      - '4370'
+      Date:
+      - Fri, 28 Feb 2020 03:17:37 GMT
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"timezone":"UTC","responseTime":1582859857004,"statusCode":1000,"statusMessage":"SUCCESS","responseData":[{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"USD","minPrice":0.0100000000,"minPriceUnit":"USD","minAmountDecimal":8,"minPriceDecimal":2,"trade":true,"marketType":"USD","coinType":"BTC","displayNameOfCoinInformation":"Bitcoin","coinPairType":"USD.BTC","minTradeAmount":1.00E-8,"maxTradeAmount":999999999999.0000000000,"minTradeVolume":25.0000000000,"maxTradeVolume":99999999.0000000000},{"tradeMakerFeeRate":0.1000000000,"tradeTakerFeeRate":0.1000000000,"tradeFeeUnit":"BTC","minPrice":1.00E-8,"minPriceUnit":"BTC","minAmountDecimal":1,"minPriceDecimal":8,"trade":true,"marketType":"BTC","coinType":"LN","displayNameOfCoinInformation":"LN","coinPairType":"BTC.LN","minTradeAmount":0.1000000000,"maxTradeAmount":999999999.0000000000,"minTradeVolume":0.0020000000,"maxTradeVolume":999999999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"USDT","minPrice":0.0100000000,"minPriceUnit":"USDT","minAmountDecimal":5,"minPriceDecimal":2,"trade":true,"marketType":"USDT","coinType":"ETH","displayNameOfCoinInformation":"Ethereum","coinPairType":"USDT.ETH","minTradeAmount":0.0000100000,"maxTradeAmount":50000.0000000000,"minTradeVolume":10.0000000000,"maxTradeVolume":999999999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"BTC","minPrice":1.00E-8,"minPriceUnit":"BTC","minAmountDecimal":8,"minPriceDecimal":8,"trade":true,"marketType":"BTC","coinType":"BCH","displayNameOfCoinInformation":"Bitcoin
+        Cash","coinPairType":"BTC.BCH","minTradeAmount":1.00E-8,"maxTradeAmount":999999999.0000000000,"minTradeVolume":0.0010000000,"maxTradeVolume":999999999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"USD","minPrice":0.0001000000,"minPriceUnit":"USD","minAmountDecimal":2,"minPriceDecimal":4,"trade":true,"marketType":"USD","coinType":"USDT","displayNameOfCoinInformation":"Tether","coinPairType":"USD.USDT","minTradeAmount":0.0100000000,"maxTradeAmount":999999999999.0000000000,"minTradeVolume":25.0000000000,"maxTradeVolume":99999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"USDT","minPrice":0.0100000000,"minPriceUnit":"USDT","minAmountDecimal":6,"minPriceDecimal":2,"trade":true,"marketType":"USDT","coinType":"BTC","displayNameOfCoinInformation":"Bitcoin","coinPairType":"USDT.BTC","minTradeAmount":0.0000010000,"maxTradeAmount":3200.0000000000,"minTradeVolume":10.0000000000,"maxTradeVolume":999999999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"USD","minPrice":0.0100000000,"minPriceUnit":"USD","minAmountDecimal":8,"minPriceDecimal":2,"trade":true,"marketType":"USD","coinType":"ETH","displayNameOfCoinInformation":"Ethereum","coinPairType":"USD.ETH","minTradeAmount":1.00E-8,"maxTradeAmount":999999999999.0000000000,"minTradeVolume":25.0000000000,"maxTradeVolume":99999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"BTC","minPrice":1.00E-8,"minPriceUnit":"BTC","minAmountDecimal":8,"minPriceDecimal":8,"trade":true,"marketType":"BTC","coinType":"ETH","displayNameOfCoinInformation":"Ethereum","coinPairType":"BTC.ETH","minTradeAmount":1.00E-8,"maxTradeAmount":999999999.0000000000,"minTradeVolume":0.0010000000,"maxTradeVolume":999999999999.0000000000},{"tradeMakerFeeRate":0.2000000000,"tradeTakerFeeRate":0.2000000000,"tradeFeeUnit":"USDT","minPrice":0.0100000000,"minPriceUnit":"USDT","minAmountDecimal":5,"minPriceDecimal":2,"trade":true,"marketType":"USDT","coinType":"BCH","displayNameOfCoinInformation":"Bitcoin
+        Cash","coinPairType":"USDT.BCH","minTradeAmount":0.0000100000,"maxTradeAmount":22000.0000000000,"minTradeVolume":10.0000000000,"maxTradeVolume":999999999999.0000000000},{"tradeMakerFeeRate":0.1000000000,"tradeTakerFeeRate":0.1000000000,"tradeFeeUnit":"USDT","minPrice":0.0001000000,"minPriceUnit":"USDT","minAmountDecimal":1,"minPriceDecimal":4,"trade":true,"marketType":"USDT","coinType":"LN","displayNameOfCoinInformation":"LN","coinPairType":"USDT.LN","minTradeAmount":0.1000000000,"maxTradeAmount":999999999.0000000000,"minTradeVolume":20.0000000000,"maxTradeVolume":999999999999.0000000000}]}'
+    http_version: 
+  recorded_at: Fri, 28 Feb 2020 03:17:37 GMT
+recorded_with: VCR 4.0.0

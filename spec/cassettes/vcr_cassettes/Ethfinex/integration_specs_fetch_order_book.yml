@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-pub.ethfinex.com/v2/book/tETHUSD/P0
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api-pub.ethfinex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 26 Jul 2019 08:55:34 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1022'
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d4f49ab6c8f9cad9286aa2ea9f47d83791564131334; expires=Sat, 25-Jul-20
+        08:55:34 GMT; path=/; domain=.ethfinex.com; HttpOnly
+      X-Frame-Options:
+      - sameorigin
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - same-origin
+      X-Download-Options:
+      - noopen
+      X-Content-Type-Options:
+      - nosniff
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains;
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 4fc527c6faaadd4a-KUL
+    body:
+      encoding: UTF-8
+      string: "[[217.35,1,27.67106757],[217.33,2,3.02207183],[217.32,4,11.24686684],[217.3,5,10.64550525],[217.27,2,2.98384266],[217.26,3,3.23242695],[217.25,2,5.62343342],[217.23,2,15.31574309],[217.22,3,8.43515013],[217.21,1,10.76271399],[217.2,1,266.36150638],[217.17,1,0.10449252],[217.16,1,3],[217.15,1,27.60460996],[217.13,1,2],[217.1,2,33],[217.09,1,22.344],[217.08,1,18.55606814],[217.06,1,5],[217.04,5,99.114],[217,1,4.39008711],[216.98,1,112.46187114],[216.97,1,74.04],[216.95,1,10],[216.93,3,20.63842078],[217.36,1,-37.01167394],[217.37,1,-7.76445844],[217.39,1,-8.96999425],[217.42,1,-3],[217.47,1,-1.38092938],[217.49,1,-9.68085467],[217.5,5,-79.77510408],[217.51,1,-69.80392157],[217.52,2,-15.43529082],[217.53,1,-0.2845],[217.54,2,-51.92707044],[217.55,1,-48.44010401],[217.56,1,-14],[217.57,1,-37.5],[217.58,2,-45],[217.59,2,-16.88],[217.6,1,-0.1],[217.62,1,-59.2770326],[217.63,1,-167.02428434],[217.64,2,-48.01978589],[217.65,1,-3],[217.66,2,-26.21408243],[217.67,1,-30.023],[217.68,1,-18.056],[217.69,2,-124.25265148]]"
+    http_version: 
+  recorded_at: Fri, 26 Jul 2019 08:55:33 GMT
+recorded_with: VCR 4.0.0

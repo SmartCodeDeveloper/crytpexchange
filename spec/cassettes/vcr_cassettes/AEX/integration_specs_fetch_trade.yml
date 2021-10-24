@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.aex.zone/trades.php?c=btc&mk_type=usdt
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.aex.zone
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 25 Jul 2019 07:59:29 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Server:
+      - nginx
+      X-Powered-By:
+      - PHP/5.4.16
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache,must-revalidate
+    body:
+      encoding: UTF-8
+      string: '[{"date":1564041002,"price":10040,"amount":0.031892,"tid":6720764,"type":"sell"},{"date":1564041009,"price":10068,"amount":0.364068,"tid":6720765,"type":"sell"},{"date":1564041011,"price":10072,"amount":0.154489,"tid":6720766,"type":"sell"},{"date":1564041018,"price":10072,"amount":0.484157,"tid":6720767,"type":"buy"},{"date":1564041023,"price":10068,"amount":0.270163,"tid":6720768,"type":"buy"},{"date":1564041033,"price":10085,"amount":0.027748,"tid":6720769,"type":"buy"},{"date":1564041044,"price":10074,"amount":0.453908,"tid":6720770,"type":"sell"},{"date":1564041054,"price":10056,"amount":0.335034,"tid":6720771,"type":"sell"},{"date":1564041074,"price":10076,"amount":0.302542,"tid":6720772,"type":"buy"},{"date":1564041100,"price":10070,"amount":0.05672,"tid":6720773,"type":"sell"},{"date":1564041123,"price":10068,"amount":0.087454,"tid":6720774,"type":"buy"},{"date":1564041212,"price":10058,"amount":0.09193,"tid":6720775,"type":"sell"},{"date":1564041268,"price":10068,"amount":0.093081,"tid":6720776,"type":"buy"},{"date":1564041275,"price":10080,"amount":0.355931,"tid":6720777,"type":"sell"},{"date":1564041293,"price":10048,"amount":0.314331,"tid":6720778,"type":"buy"},{"date":1564041344,"price":10100,"amount":0.005471,"tid":6720779,"type":"sell"},{"date":1564041347,"price":10052,"amount":0.140068,"tid":6720780,"type":"buy"},{"date":1564041352,"price":10102,"amount":0.192768,"tid":6720781,"type":"sell"},{"date":1564041379,"price":10095,"amount":0.276396,"tid":6720782,"type":"buy"},{"date":1564041386,"price":10054,"amount":0.180749,"tid":6720783,"type":"sell"},{"date":1564041407,"price":10071,"amount":0.089606,"tid":6720784,"type":"sell"},{"date":1564041412,"price":10086,"amount":0.372595,"tid":6720785,"type":"buy"},{"date":1564041430,"price":10054,"amount":0.142931,"tid":6720786,"type":"buy"},{"date":1564041433,"price":10060,"amount":0.193501,"tid":6720787,"type":"sell"},{"date":1564041511,"price":10063,"amount":0.173415,"tid":6720788,"type":"sell"},{"date":1564041518,"price":10069,"amount":0.132298,"tid":6720789,"type":"buy"},{"date":1564041527,"price":10070,"amount":0.435185,"tid":6720790,"type":"buy"},{"date":1564041537,"price":10044,"amount":0.436316,"tid":6720791,"type":"buy"},{"date":1564041553,"price":10081,"amount":0.47732,"tid":6720792,"type":"sell"},{"date":1564041568,"price":10067,"amount":0.473232,"tid":6720793,"type":"sell"}]'
+    http_version: 
+  recorded_at: Thu, 25 Jul 2019 07:59:27 GMT
+recorded_with: VCR 4.0.0

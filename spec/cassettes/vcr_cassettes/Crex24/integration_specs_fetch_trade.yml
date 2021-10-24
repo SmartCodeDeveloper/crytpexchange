@@ -1,0 +1,241 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.crex24.com/v2/public//recentTrades?instrument=DOGE-BTC
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.crex24.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 12 Dec 2019 07:52:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d5922bf7bff1541142b45494aff2b8beb1576137172; expires=Sat, 11-Jan-20
+        07:52:52 GMT; path=/; domain=.crex24.com; HttpOnly
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - no-cache, no-store, must-revalidate
+      Pragma:
+      - no-cache
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 543e1f108f98dd62-KUL
+    body:
+      encoding: UTF-8
+      string: "[\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 1178.66300116,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:51:28Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 1821.33699884,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:51:28Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 14.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:49:25Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000297,\r\n    \"volume\": 1036.0,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T07:42:41Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000296,\r\n    \"volume\": 1090.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T07:32:33Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000296,\r\n
+        \   \"volume\": 708.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:31:03Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 1334.66300116,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:26:33Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 946.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:26:33Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 4657.33699884,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:26:33Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 328.67132867,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T07:23:31Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 2927.07292707,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T07:18:45Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 700.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T07:18:22Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000298,\r\n    \"volume\": 519.48051948,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T07:09:07Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000298,\r\n    \"volume\": 4961.03896104,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T07:08:31Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000296,\r\n    \"volume\": 2266.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T07:05:50Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000297,\r\n
+        \   \"volume\": 4200.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T07:04:34Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 589.41058941,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T06:54:18Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 29720.63236763,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T06:47:13Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 16142.0,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T06:47:13Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 606.0,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T06:47:13Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 2406.49250749,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T06:47:13Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 100.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T06:38:28Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000296,\r\n    \"volume\": 14.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T06:33:59Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 14.98501499,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T06:31:19Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 170.82917083,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T06:22:06Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 47.95204795,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T06:07:12Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 87.91208791,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T05:53:03Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 254.54545455,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T05:52:47Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 800.1998002,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T05:49:47Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 402.08391608,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T05:41:33Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 514.0,\r\n    \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T05:41:33Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 403.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:38:49Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 6156.66300116,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:37:15Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 61.33699884,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:37:15Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 4682.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:36:26Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000296,\r\n    \"volume\": 728.21814998,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:30:16Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000297,\r\n    \"volume\": 104.78185002,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:30:16Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000299,\r\n    \"volume\": 212.31168831,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:28:03Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000299,\r\n    \"volume\": 309.16683317,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:28:03Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000297,\r\n    \"volume\": 503.71443554,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:26:39Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000297,\r\n    \"volume\": 4185.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T05:25:04Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000297,\r\n
+        \   \"volume\": 40.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:25:04Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000297,\r\n    \"volume\": 1389.0,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:25:04Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 980.28556446,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:25:04Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 70.72371101,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:21:02Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 208.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T05:13:57Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 47.94278175,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T05:12:42Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 58.94105894,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T05:10:37Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 10.98901099,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T05:09:47Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000297,\r\n    \"volume\": 10.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:09:32Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000299,\r\n    \"volume\": 166.83316683,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:06:24Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.0000003,\r\n    \"volume\": 4684.31568432,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:01:57Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.0000003,\r\n    \"volume\": 133.86613387,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:01:21Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000298,\r\n    \"volume\": 196.4547528,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:00:26Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000298,\r\n    \"volume\": 733.43656344,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T05:00:26Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000297,\r\n    \"volume\": 999.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T04:59:03Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000297,\r\n
+        \   \"volume\": 2263.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T04:47:35Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 807.19280719,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:46:40Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 1121.87812188,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:44:40Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 1507.49250749,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:43:12Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000297,\r\n    \"volume\": 505.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T04:41:47Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 13.98601399,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:38:25Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000297,\r\n    \"volume\": 622.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T04:35:34Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000297,\r\n    \"volume\": 3443.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T04:32:34Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 9.99000999,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T04:20:00Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000298,\r\n
+        \   \"volume\": 9.99000999,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T04:18:56Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000297,\r\n
+        \   \"volume\": 5365.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T04:14:10Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000298,\r\n    \"volume\": 429.99999999,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T04:11:58Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.0000003,\r\n    \"volume\": 15.98401598,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:08:50Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000297,\r\n    \"volume\": 10.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T04:08:34Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000299,\r\n    \"volume\": 39.96003996,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:05:55Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 348.65134865,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T04:05:47Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.0000003,\r\n    \"volume\": 9.99000999,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:58:55Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000298,\r\n    \"volume\": 580.41958042,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:58:49Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 3049.44485118,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 111066.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 2855.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000296,\r\n    \"volume\": 38029.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000296,\r\n
+        \   \"volume\": 14895.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000296,\r\n
+        \   \"volume\": 31.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 7000.0,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 16142.0,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 5000.0,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 515.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000296,\r\n    \"volume\": 850.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000296,\r\n    \"volume\": 34.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T03:56:31Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000296,\r\n
+        \   \"volume\": 2266.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000296,\r\n    \"volume\": 97588.55514882,\r\n
+        \   \"side\": \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:31Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000297,\r\n    \"volume\": 40.0,\r\n    \"side\":
+        \"sell\",\r\n    \"timestamp\": \"2019-12-12T03:56:12Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000297,\r\n    \"volume\": 6082.0,\r\n    \"side\": \"sell\",\r\n
+        \   \"timestamp\": \"2019-12-12T03:56:12Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000297,\r\n    \"volume\": 4059.0,\r\n    \"side\": \"sell\",\r\n    \"timestamp\":
+        \"2019-12-12T03:56:12Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000299,\r\n
+        \   \"volume\": 833.16683317,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T03:53:00Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000299,\r\n
+        \   \"volume\": 133.86613387,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T03:52:26Z\"\r\n  },\r\n  {\r\n    \"price\": 0.0000003,\r\n    \"volume\":
+        4915.28271728,\r\n    \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:50:12Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.0000003,\r\n    \"volume\": 40033.76823177,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:50:12Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000299,\r\n    \"volume\": 283.0,\r\n    \"side\":
+        \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:49:41Z\"\r\n  },\r\n  {\r\n
+        \   \"price\": 0.000000299,\r\n    \"volume\": 328.0,\r\n    \"side\": \"buy\",\r\n
+        \   \"timestamp\": \"2019-12-12T03:49:41Z\"\r\n  },\r\n  {\r\n    \"price\":
+        0.000000299,\r\n    \"volume\": 17468.0,\r\n    \"side\": \"buy\",\r\n    \"timestamp\":
+        \"2019-12-12T03:49:41Z\"\r\n  },\r\n  {\r\n    \"price\": 0.000000299,\r\n
+        \   \"volume\": 40678.0,\r\n    \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:49:41Z\"\r\n
+        \ },\r\n  {\r\n    \"price\": 0.000000299,\r\n    \"volume\": 8414.0,\r\n
+        \   \"side\": \"buy\",\r\n    \"timestamp\": \"2019-12-12T03:49:41Z\"\r\n
+        \ }\r\n]"
+    http_version: 
+  recorded_at: Thu, 12 Dec 2019 07:52:50 GMT
+recorded_with: VCR 4.0.0

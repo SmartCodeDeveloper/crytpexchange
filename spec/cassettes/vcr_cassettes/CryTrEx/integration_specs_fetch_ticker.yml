@@ -1,0 +1,42 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://crytrex.com/public_api/ticker?market=BTC_USDT
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - crytrex.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 14 Apr 2020 07:48:29 GMT
+      Server:
+      - Apache
+      Upgrade:
+      - h2,h2c
+      Connection:
+      - Upgrade, close
+      Vary:
+      - Accept-Encoding,User-Agent
+      Access-Control-Allow-Origin:
+      - "*"
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: ' {"btc_usdt":{"high":6947.76980000,"low":6810.19020000,"avg":6882.48000000,"vol":10712.15119035,"vol_cur":73781266.46327500,"last":6878.98000000,"buy":6810.19020000,"sell":6947.76980000,"updated":1586849692}}'
+    http_version: 
+  recorded_at: Tue, 14 Apr 2020 07:48:30 GMT
+recorded_with: VCR 4.0.0

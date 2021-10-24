@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://newapi.bilaxy.com/v1/trades?pair=EOS_ETH
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - newapi.bilaxy.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 31 Dec 2019 06:36:07 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d50ea9bc6bae981d6269af00589bef7b31577774167; expires=Thu, 30-Jan-20
+        06:36:07 GMT; path=/; domain=.bilaxy.com; HttpOnly; SameSite=Lax; Secure
+      Cache-Control:
+      - no-cache, no-store, max-age=0, must-revalidate, value
+      Content-Security-Policy:
+      - default-src 'self'
+      Vary:
+      - Accept-Encoding
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Ratelimit-Limit:
+      - '200'
+      X-Ratelimit-Remaining:
+      - '198'
+      X-Ratelimit-Reset:
+      - '1577774176'
+      X-Xss-Protection:
+      - 1; mode=block
+      Cf-Cache-Status:
+      - DYNAMIC
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains; preload
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 54da3cc0fd90ddc3-SIN
+    body:
+      encoding: UTF-8
+      string: '[{"id":358261180,"price":"0.019874","amount":"92.95","total":"1.84728830","ts":1577774155713,"direction":"buy"},{"id":358261178,"price":"0.019872","amount":"87.28","total":"1.73442816","ts":1577774155702,"direction":"buy"},{"id":358261176,"price":"0.019871","amount":"31.86","total":"0.63309006","ts":1577774155692,"direction":"buy"},{"id":358261174,"price":"0.019868","amount":"98.89","total":"1.96474652","ts":1577774155681,"direction":"buy"},{"id":358261172,"price":"0.019864","amount":"18.55","total":"0.36847720","ts":1577774155669,"direction":"buy"},{"id":358261170,"price":"0.019858","amount":"35.23","total":"0.69959734","ts":1577774155657,"direction":"buy"},{"id":358261168,"price":"0.019857","amount":"11.32","total":"0.22478124","ts":1577774155647,"direction":"buy"},{"id":358261166,"price":"0.019857","amount":"98.74","total":"1.96068018","ts":1577774155635,"direction":"buy"},{"id":358261164,"price":"0.019856","amount":"99.03","total":"1.96633968","ts":1577774155624,"direction":"buy"},{"id":358261162,"price":"0.019854","amount":"35.26","total":"0.70005204","ts":1577774155614,"direction":"buy"},{"id":358261160,"price":"0.019852","amount":"54.14","total":"1.07478728","ts":1577774155601,"direction":"buy"},{"id":358261158,"price":"0.019852","amount":"93.46","total":"1.85536792","ts":1577774155591,"direction":"buy"},{"id":358261156,"price":"0.019852","amount":"82.87","total":"1.64513524","ts":1577774155579,"direction":"buy"},{"id":358261154,"price":"0.019850","amount":"72.24","total":"1.43396400","ts":1577774155565,"direction":"buy"},{"id":358261152,"price":"0.019847","amount":"58.78","total":"1.16660666","ts":1577774155553,"direction":"buy"},{"id":358261150,"price":"0.019840","amount":"92.49","total":"1.83500160","ts":1577774155541,"direction":"buy"},{"id":358261148,"price":"0.019832","amount":"68.27","total":"1.35393064","ts":1577774155527,"direction":"buy"},{"id":358258492,"price":"0.019866","amount":"15.65","total":"0.31090290","ts":1577774101852,"direction":"buy"},{"id":358258490,"price":"0.019866","amount":"17.32","total":"0.34407912","ts":1577774101838,"direction":"buy"},{"id":358258488,"price":"0.019845","amount":"11.34","total":"0.22504230","ts":1577774101825,"direction":"buy"},{"id":358258486,"price":"0.019835","amount":"43.76","total":"0.86797960","ts":1577774101813,"direction":"buy"},{"id":358258484,"price":"0.019834","amount":"41.89","total":"0.83084626","ts":1577774101801,"direction":"buy"},{"id":358258482,"price":"0.019832","amount":"88.74","total":"1.75989168","ts":1577774101786,"direction":"buy"},{"id":358254928,"price":"0.019841","amount":"99.25","total":"1.96921925","ts":1577774033979,"direction":"sell"},{"id":358254924,"price":"0.019848","amount":"32.43","total":"0.64367064","ts":1577774033967,"direction":"sell"},{"id":358254920,"price":"0.019849","amount":"43.06","total":"0.85469794","ts":1577774033954,"direction":"sell"},{"id":358254916,"price":"0.019850","amount":"66.21","total":"1.31426850","ts":1577774033942,"direction":"sell"},{"id":358254912,"price":"0.019850","amount":"17.53","total":"0.34797050","ts":1577774033930,"direction":"sell"},{"id":358254908,"price":"0.019853","amount":"11.51","total":"0.22850803","ts":1577774033914,"direction":"sell"},{"id":358254904,"price":"0.019855","amount":"73.68","total":"1.46291640","ts":1577774033901,"direction":"sell"},{"id":358254900,"price":"0.019859","amount":"12.74","total":"0.25300366","ts":1577774033888,"direction":"sell"},{"id":358254896,"price":"0.019860","amount":"27.53","total":"0.54674580","ts":1577774033872,"direction":"sell"},{"id":358254890,"price":"0.019860","amount":"61.58","total":"1.22297880","ts":1577774033858,"direction":"sell"},{"id":358254884,"price":"0.019862","amount":"37.72","total":"0.74919464","ts":1577774033845,"direction":"sell"},{"id":358254878,"price":"0.019863","amount":"71.42","total":"1.41861546","ts":1577774033833,"direction":"sell"},{"id":358254872,"price":"0.019865","amount":"98.77","total":"1.96206605","ts":1577774033820,"direction":"sell"},{"id":358254866,"price":"0.019867","amount":"13.77","total":"0.27356859","ts":1577774033808,"direction":"sell"},{"id":358254860,"price":"0.019867","amount":"10.22","total":"0.20304074","ts":1577774033796,"direction":"sell"},{"id":358254856,"price":"0.019867","amount":"30.06","total":"0.59720202","ts":1577774033783,"direction":"sell"},{"id":358254854,"price":"0.019868","amount":"52.61","total":"1.04525548","ts":1577774033770,"direction":"sell"},{"id":358254850,"price":"0.019871","amount":"22.65","total":"0.45007815","ts":1577774033759,"direction":"sell"},{"id":358254846,"price":"0.019871","amount":"69.77","total":"1.38639967","ts":1577774033747,"direction":"sell"},{"id":358254842,"price":"0.019871","amount":"10.47","total":"0.20804937","ts":1577774033735,"direction":"sell"},{"id":358254838,"price":"0.019873","amount":"98.43","total":"1.95609939","ts":1577774033720,"direction":"sell"},{"id":358254836,"price":"0.019873","amount":"45.82","total":"0.91058086","ts":1577774033708,"direction":"sell"},{"id":358254832,"price":"0.019873","amount":"51.91","total":"1.03160743","ts":1577774033691,"direction":"sell"},{"id":358254828,"price":"0.019874","amount":"42.91","total":"0.85279334","ts":1577774033677,"direction":"sell"},{"id":358254826,"price":"0.019875","amount":"81.26","total":"1.61504250","ts":1577774033665,"direction":"sell"},{"id":358254824,"price":"0.019876","amount":"17.85","total":"0.35478660","ts":1577774033653,"direction":"sell"},{"id":358254822,"price":"0.019877","amount":"26.84","total":"0.53349868","ts":1577774033638,"direction":"sell"},{"id":358254820,"price":"0.019879","amount":"51.41","total":"1.02197939","ts":1577774033623,"direction":"sell"},{"id":358251786,"price":"0.019856","amount":"88.68","total":"1.76083008","ts":1577773954690,"direction":"buy"},{"id":358251784,"price":"0.019847","amount":"98.88","total":"1.96247136","ts":1577773954678,"direction":"buy"},{"id":358251782,"price":"0.019843","amount":"48.20","total":"0.95643260","ts":1577773954663,"direction":"buy"},{"id":358248164,"price":"0.019870","amount":"34.22","total":"0.67995140","ts":1577773874218,"direction":"buy"},{"id":358248160,"price":"0.019869","amount":"57.03","total":"1.13312907","ts":1577773874205,"direction":"buy"},{"id":358248158,"price":"0.019868","amount":"96.38","total":"1.91487784","ts":1577773874193,"direction":"buy"},{"id":358248156,"price":"0.019867","amount":"13.70","total":"0.27217790","ts":1577773874181,"direction":"buy"},{"id":358248154,"price":"0.019863","amount":"31.97","total":"0.63502011","ts":1577773874170,"direction":"buy"},{"id":358248152,"price":"0.019860","amount":"59.43","total":"1.18027980","ts":1577773874158,"direction":"buy"},{"id":358248150,"price":"0.019859","amount":"32.27","total":"0.64084993","ts":1577773874147,"direction":"buy"},{"id":358248148,"price":"0.019856","amount":"44.71","total":"0.88776176","ts":1577773874135,"direction":"buy"},{"id":358248146,"price":"0.019844","amount":"31.91","total":"0.63322204","ts":1577773874124,"direction":"buy"},{"id":358248144,"price":"0.019844","amount":"60.19","total":"1.19441036","ts":1577773874113,"direction":"buy"},{"id":358248142,"price":"0.019841","amount":"16.01","total":"0.31765441","ts":1577773874102,"direction":"buy"},{"id":358248140,"price":"0.019838","amount":"87.59","total":"1.73761042","ts":1577773874091,"direction":"buy"},{"id":358248138,"price":"0.019836","amount":"95.25","total":"1.88937900","ts":1577773874080,"direction":"buy"},{"id":358248136,"price":"0.019834","amount":"60.00","total":"1.19004000","ts":1577773874069,"direction":"buy"},{"id":358248134,"price":"0.019833","amount":"56.63","total":"1.12314279","ts":1577773874057,"direction":"buy"},{"id":358245680,"price":"0.019877","amount":"16.11","total":"0.32021847","ts":1577773824327,"direction":"buy"},{"id":358245669,"price":"0.019877","amount":"90.35","total":"1.79588695","ts":1577773824291,"direction":"buy"},{"id":358245657,"price":"0.019876","amount":"63.95","total":"1.27107020","ts":1577773824262,"direction":"buy"},{"id":358245646,"price":"0.019863","amount":"52.17","total":"1.03625271","ts":1577773824228,"direction":"buy"},{"id":358245633,"price":"0.019861","amount":"69.72","total":"1.38470892","ts":1577773824201,"direction":"buy"},{"id":358245615,"price":"0.019861","amount":"73.48","total":"1.45938628","ts":1577773824171,"direction":"buy"},{"id":358245603,"price":"0.019857","amount":"69.37","total":"1.37748009","ts":1577773824142,"direction":"buy"},{"id":358245580,"price":"0.019852","amount":"64.78","total":"1.28601256","ts":1577773824003,"direction":"buy"},{"id":358245570,"price":"0.019851","amount":"15.82","total":"0.31404282","ts":1577773823897,"direction":"buy"},{"id":358245547,"price":"0.019849","amount":"71.17","total":"1.41265333","ts":1577773823849,"direction":"buy"},{"id":358245526,"price":"0.019847","amount":"56.07","total":"1.11282129","ts":1577773823783,"direction":"buy"},{"id":358245498,"price":"0.019845","amount":"74.25","total":"1.47349125","ts":1577773823724,"direction":"buy"},{"id":358245478,"price":"0.019844","amount":"33.59","total":"0.66655996","ts":1577773823603,"direction":"buy"},{"id":358245452,"price":"0.019843","amount":"47.96","total":"0.95167028","ts":1577773823450,"direction":"buy"},{"id":358245430,"price":"0.019841","amount":"21.20","total":"0.42062920","ts":1577773823386,"direction":"buy"},{"id":358245394,"price":"0.019840","amount":"87.15","total":"1.72905600","ts":1577773823323,"direction":"buy"},{"id":358245362,"price":"0.019838","amount":"32.27","total":"0.64017226","ts":1577773823222,"direction":"buy"},{"id":358245266,"price":"0.019838","amount":"77.45","total":"1.53645310","ts":1577773814384,"direction":"buy"},{"id":358245264,"price":"0.019832","amount":"46.62","total":"0.92456784","ts":1577773814367,"direction":"buy"},{"id":358244142,"price":"0.019889","amount":"39.43","total":"0.78422327","ts":1577773782548,"direction":"buy"},{"id":358244139,"price":"0.019883","amount":"93.05","total":"1.85011315","ts":1577773782533,"direction":"buy"},{"id":358244134,"price":"0.019876","amount":"53.35","total":"1.06038460","ts":1577773782518,"direction":"buy"},{"id":358244132,"price":"0.019872","amount":"76.15","total":"1.51325280","ts":1577773782502,"direction":"buy"},{"id":358244130,"price":"0.019866","amount":"35.18","total":"0.69888588","ts":1577773782487,"direction":"buy"},{"id":358244128,"price":"0.019865","amount":"27.33","total":"0.54291045","ts":1577773782473,"direction":"buy"},{"id":358244126,"price":"0.019863","amount":"64.23","total":"1.27580049","ts":1577773782458,"direction":"buy"},{"id":358244124,"price":"0.019858","amount":"22.75","total":"0.45176950","ts":1577773782446,"direction":"buy"},{"id":358244122,"price":"0.019855","amount":"74.60","total":"1.48118300","ts":1577773782432,"direction":"buy"},{"id":358244120,"price":"0.019854","amount":"95.60","total":"1.89804240","ts":1577773782419,"direction":"buy"},{"id":358244118,"price":"0.019854","amount":"72.31","total":"1.43564274","ts":1577773782406,"direction":"buy"},{"id":358244116,"price":"0.019852","amount":"75.98","total":"1.50835496","ts":1577773782395,"direction":"buy"}]
+
+        '
+    http_version: 
+  recorded_at: Tue, 31 Dec 2019 06:36:07 GMT
+recorded_with: VCR 4.0.0

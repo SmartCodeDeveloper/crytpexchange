@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://bitexlive.com/api/public/tickers?filter=ETH_BTC
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - bitexlive.com
+      User-Agent:
+      - http.rb/5.0.0.pre
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 15 Oct 2019 06:37:23 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Set-Cookie:
+      - __cfduid=d79e0ab10adb48e3a550e125724ce4b571571121442; expires=Wed, 14-Oct-20
+        06:37:22 GMT; path=/; domain=.bitexlive.com; HttpOnly; Secure
+      - ci_session=e497b247a74c0990ac98597f882abc8ba8a5ea2b; expires=Tue, 15-Oct-2019
+        08:37:23 GMT; Max-Age=7200; path=/; secure; HttpOnly
+      X-Powered-By:
+      - PHP/7.1.32
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding
+      X-Turbo-Charged-By:
+      - LiteSpeed
+      Content-Security-Policy:
+      - 'object-src ''none''; default-src ''self'' data: ''unsafe-eval'' ''unsafe-inline''
+        wss://bitexlive.com:8443 https://bitexlive.com:8443 https://cdnjs.cloudflare.com
+        https://www.google.com https://www.googletagmanager.com https://www.gstatic.com
+        https://www.google-analytics.com https://kit-free.fontawesome.com https://chart.googleapis.com'
+      Feature-Policy:
+      - vibrate 'self';  sync-xhr 'self';
+      X-Xss-Protection:
+      - 1;mode=block
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Strict-Transport-Security:
+      - max-age=15552000; preload
+      X-Content-Type-Options:
+      - nosniff
+      Public-Key-Pins:
+      - pin-sha256="pin1"; pin-sha256="pin2"; max-age=2592000
+      Cf-Cache-Status:
+      - DYNAMIC
+      Expect-Ct:
+      - max-age=604800, report-uri="https://report-uri.clo
+      - udflare.com/cdn-cgi/beacon/expect-ct"
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 525fc8b93be1aee5-KIX
+    body:
+      encoding: UTF-8
+      string: '[{"tradingPairs":"ETH_BTC","LastPrice":0.022200000000000001,"percentChange":0.68000000000000005,"low24h":0.02197,"high24h":0.022440000000000002,"baseVolume24h":0.74790000000000001,"quoteVolume24h":33.681399999999996,"lowestAsk":0.022249999999999999,"highestBid":0.022200000000000001,"lastUpdateTimestamp":"2019-10-15
+        06:28:42","tradesEnabled":true}]'
+    http_version: 
+  recorded_at: Tue, 15 Oct 2019 06:37:23 GMT
+recorded_with: VCR 4.0.0

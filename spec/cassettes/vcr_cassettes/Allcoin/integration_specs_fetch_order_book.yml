@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.allcoin.ca/Api_Order/depth?symbol=ltc2btc
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - www.allcoin.ca
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 12 Sep 2018 20:58:55 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - close
+      Vary:
+      - Accept-Encoding
+      Set-Cookie:
+      - PHPSESSID=ceb275a3d6e782e9cffc476c682cdbc2; expires=Thu, 13-Sep-2018 20:58:55
+        GMT; Max-Age=86400; path=/; domain=allcoin.ca
+      - USER_UNI=b05294e6fe137dd954f3bf50841e7b54; expires=Thu, 13-Sep-2018 20:58:55
+        GMT; Max-Age=86400; path=/; domain=allcoin.ca
+      - __cdnuid=1a604a82ffc5836b904789ab8643f6b8; max-age=31536000; path=/; HttpOnly
+      - lang=zh_CN; expires=Thu, 13-Sep-2018 20:58:55 GMT; Max-Age=86400; path=/;
+        domain=allcoin.ca
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Pragma:
+      - no-cache
+      X-Cdn-Edge:
+      - 11cd89d,-
+      X-Cache:
+      - bypass
+    body:
+      encoding: UTF-8
+      string: '{"code":0,"msg":"\u83b7\u53d6\u5e02\u573a\u6df1\u5ea6\u4fe1\u606f\u6210\u529f","data":{"asks":[[0.3,0.05],[0.2,0.1508],[0.098,14.61],[0.096,5.62],[0.09,0.05],[0.0877712,0.21],[0.025,1.32],[0.0190001,0.4889],[0.0189999,0.48],[0.0188878,0.08],[0.0128,0.0311],[0.0127849,0.024],[0.0118588,0.02],[0.0099957,0.09],[0.0098,1.11],[0.0096621,0.06],[0.009662,0.87],[0.009162,0.17]],"bids":[[0.005556,0.77],[0.0055556,1.09],[0.0010193,4],[0.0010191,10]],"date":1536785931}}'
+    http_version: 
+  recorded_at: Wed, 12 Sep 2018 20:58:56 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.hitbtc.com/api/2/public/ticker/BTCUSD
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - api.hitbtc.com
+      User-Agent:
+      - http.rb/3.0.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 02 Jan 2019 20:59:46 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '208'
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"ask":"3856.30","bid":"3855.13","last":"3856.25","open":"3734.62","low":"3717.25","high":"3866.88","volume":"35006.25","volumeQuote":"133069217.6789","timestamp":"2019-01-02T20:59:46.694Z","symbol":"BTCUSD"}'
+    http_version: 
+  recorded_at: Wed, 02 Jan 2019 20:59:46 GMT
+recorded_with: VCR 4.0.0
